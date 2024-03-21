@@ -7,7 +7,7 @@ const Mainapp = () => {
   const dark = useSelector((store) => store.app.Dark);
 
   return (
-    <div className={(dark ? "bg-bgDark" : "bg-blue-50") + " h-screen"}>
+    <div className={(dark ? "bg-bgDark" : "bg-bgLight") + " h-screen"}>
       <Navbar />
       <Main />
     </div>
